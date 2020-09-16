@@ -1,0 +1,53 @@
+body {
+    margin: 10vh 6vh 6vh 10vh;
+}
+
+nav{
+    display: flex;
+    height: 15vh;
+    margin-bottom: 2.5vh;
+
+}
+
+#left-nav-box{
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 40%;
+    margin-right: 10vh;
+}
+
+#right-nav-box{
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 5vh;
+    flex-basis: 25%;
+    margin-left: 2.5vh;
+    margin-top: 5vh;
+}
+
+.big-box{
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 40vh;
+    margin-bottom: 2.5vh;
+}
+
+.three-boxes{
+    height: 20vh;
+    display: flex;
+    margin-bottom: 2.5vh;
+    justify-content: space-between;
+}
+
+#section-box{
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 31%;
+}
+
+footer{
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 15vh;
+    display: flex;
+}

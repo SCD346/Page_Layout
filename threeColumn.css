@@ -1,0 +1,45 @@
+body {
+    border: 2px solid blue;
+    margin: 10vh 6vh 6vh 10vh;
+}
+
+header {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 15vh;
+    margin-bottom: 25px;
+}
+
+main {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.main-left {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 20%;
+}
+
+.main-middle {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 60%;
+    margin-left: 5vh;
+}
+
+.main-right {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 20%;
+    margin-left: 5vh;
+}
+
+footer {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 15vh;
+    margin-top: 5vh;
+}

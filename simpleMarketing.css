@@ -1,0 +1,79 @@
+body {
+    /* border: 2px solid blue; */
+    margin: 10vh 6vh 6vh 10vh;
+}
+
+header {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 15vh;
+    margin-bottom: 25px;
+}
+
+main {
+    height: 60vh;
+    /* border: 2px solid blue; */
+}
+
+.main-top {
+    height: 40vh;
+    display: flex;
+    /* border: 2px solid yellow; */
+    box-sizing: border-box;
+}
+
+.main-top-left {
+    border: 2px solid darkgrey;
+    background-color: lightgray;
+    flex-basis: 50%;
+    margin-right: 2.5vh;
+    box-sizing: border-box;
+}
+
+.main-top-right {
+    border: 2px solid darkgrey;
+    background-color: lightgray;
+    flex-basis: 50%;
+    margin-left: 2.5vh;
+    box-sizing: border-box;
+}
+
+.main-bottom {
+    height: 15vh;
+    display: flex;
+    margin-top: 5vh;
+    /* border: 2px solid orange; */
+    box-sizing: border-box;
+}
+
+.main-bottom-left {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 33%;
+    margin-right: 2.5vh;
+    box-sizing: border-box;
+}
+
+.main-bottom-middle {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 33%;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+    box-sizing: border-box;
+}
+
+.main-bottom-right {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    flex-basis: 33%;
+    margin-left: 2.5vh;
+    box-sizing: border-box;
+}
+
+footer {
+    border: 2px solid darkgray;
+    background-color: lightgray;
+    height: 15vh;
+    margin-top: 5vh;
+}
