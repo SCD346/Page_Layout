@@ -1,5 +1,5 @@
 body {
-    border: 2px solid blue;
+    border: 2px solid black;
     margin: 10vh 6vh 6vh 10vh;
 }
 
@@ -10,30 +10,33 @@ header {
     margin-bottom: 25px;
 }
 
-main {
-    height: 60vh;
+.row {
+    height: 50vh;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    border: 1px solid yellow;
+    margin-bottom: 10vh;
 }
 
+
 .main-left {
-    border: 2px solid darkgray;
+    border: 2px solid red;
     background-color: lightgray;
-    flex-basis: 20%;
+    flex-basis: 25%;
 }
 
 .main-middle {
-    border: 2px solid darkgray;
+    border: 2px solid green;
     background-color: lightgray;
-    flex-basis: 60%;
+    flex-basis: 25%;
     margin-left: 5vh;
 }
 
 .main-right {
-    border: 2px solid darkgray;
+    border: 2px solid blue;
     background-color: lightgray;
-    flex-basis: 20%;
+    flex-basis: 25%;
     margin-left: 5vh;
 }
 
@@ -43,3 +46,26 @@ footer {
     height: 15vh;
     margin-top: 5vh;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgrey;
+      margin: 2vh;
+    }
+
+    .row {
+        height: 20vh;
+        margin-bottom: 2vh;
+    }
+
+    .main-middle {
+        margin-left: 0vh;
+    }
+    
+    .main-right {
+        margin-left: 0vh;
+    }
+
+  }
